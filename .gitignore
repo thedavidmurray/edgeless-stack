@@ -1,0 +1,38 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Data (user-specific, not committed)
+data/shared_memory/events.sqlite3
+chroma-data/
+logs/
+backups/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vault content (template structure is committed, user content is not)
+memory/vault_template/00-Inbox/rss/*
+memory/vault_template/00-Inbox/youtube/*
+memory/vault_template/00-Inbox/web/*
+memory/vault_template/01-Knowledge/**/*.md
+memory/vault_template/02-Archive/**/*.md
+!memory/vault_template/**/README.md
+!memory/vault_template/**/.gitkeep

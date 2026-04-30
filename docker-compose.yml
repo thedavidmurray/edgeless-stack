@@ -1,0 +1,74 @@
+version: "3.8"
+
+# Edgeless Stack -- Docker Compose
+# Run the full infrastructure: ChromaDB + Agent Bus + Cron Scheduler
+#
+# Usage:
+#   docker compose up -d              # Start everything
+#   docker compose up chromadb -d     # Just the vector database
+#   docker compose logs -f agent-bus  # Watch agent bus logs
+
+services:
+  # --- Vector Database (Semantic Memory Layer) ---
+  # CUSTOMIZE: Remove if you don't need semantic search
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: edgeless-chromadb
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chroma-data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+      # CUSTOMIZE: Uncomment to require authentication
+      # - CHROMA_SERVER_AUTH_PROVIDER=chromadb.auth.token.TokenAuthServerProvider
+      # - CHROMA_SERVER_AUTH_CREDENTIALS=your-secret-token
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # --- Agent Bus (Inter-Agent Messaging) ---
+  # CUSTOMIZE: Remove if running single-agent setup
+  agent-bus:
+    build:
+      context: ./mcp-servers/agent-bus
+      dockerfile: Dockerfile
+    container_name: edgeless-agent-bus
+    ports:
+      - "9800:9800"
+    environment:
+      - PORT=9800
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9800/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # --- Cron Scheduler (Unattended Jobs) ---
+  # CUSTOMIZE: Mount your own cron scripts and adjust the schedule
+  cron:
+    image: python:3.11-slim
+    container_name: edgeless-cron
+    volumes:
+      - ./cron:/app/cron:ro
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    working_dir: /app
+    entrypoint: >
+      bash -c "
+        apt-get update -qq && apt-get install -y -qq cron curl > /dev/null 2>&1 &&
+        cp /app/cron/crontab /etc/cron.d/edgeless &&
+        chmod 0644 /etc/cron.d/edgeless &&
+        crontab /etc/cron.d/edgeless &&
+        cron -f
+      "
+    restart: unless-stopped
+
+volumes:
+  chroma-data:
