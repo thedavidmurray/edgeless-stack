@@ -2,7 +2,7 @@
 
 Index of all included skills with applicability metadata.
 
-**Total skills**: 9 | **Core**: 5 | **Domain**: 4
+**Total skills**: 25 | **Core**: 5 | **Domain**: 20
 
 ## Core Skills
 
@@ -24,10 +24,26 @@ Load on demand for particular task types.
 
 | Skill | Domain | When to Apply |
 |-------|--------|---------------|
+| `article-extractor` | knowledge | Extracting clean content from web articles and URLs |
+| `changelog-generator` | product | Generating changelogs from git history or release notes |
 | `code-review` | product | After writing significant code, before declaring done |
-| `research-deep` | knowledge | Complex topic requiring multi-step investigation and synthesis |
+| `commit-hygiene` | product | Validating commit size, message quality, and splitting strategies |
 | `content-research-writer` | knowledge | Writing blog posts, articles, newsletters requiring research |
+| `csv-summarizer` | knowledge | Summarizing, analyzing, or exploring CSV/tabular data |
+| `dev-docs` | product | Generating READMEs, API docs, architecture decision records |
+| `diagnose` | product | Hard bugs, performance regressions, broken/failing systems |
+| `file-organizer` | tooling | Messy directories, scattered files, duplicates, structure cleanup |
+| `image-enhancer` | creative | Upscaling, sharpening, format conversion, platform-specific presets |
+| `link-ingest` | knowledge | Ingesting and processing content from URLs |
+| `make-interfaces-feel-better` | creative | UI polish, motion, typography, spacing, interaction details |
+| `mcp-server-scaffold` | tooling | Scaffolding new MCP servers |
+| `prd-to-criteria` | product | Converting PRD acceptance criteria into verifiable checks |
+| `precommit-validation` | product | Pre-commit security and quality validation before git commit |
+| `prompt-engineering` | product | Writing agent instructions, skill prompts, LLM-facing prompts |
+| `research-deep` | knowledge | Complex topic requiring multi-step investigation and synthesis |
+| `skill-creator` | kernel | Creating new Claude Code skills from scratch |
 | `test-driven-development` | product | Implementing any feature or bugfix -- RED-GREEN-REFACTOR |
+| `test-runner` | product | Running tests, generating test scaffolds, checking coverage |
 
 **Location**: `skills/domains/`
 
