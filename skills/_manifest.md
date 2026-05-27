@@ -2,7 +2,7 @@
 
 Index of all included skills with applicability metadata.
 
-**Total skills**: 25 | **Core**: 5 | **Domain**: 20
+**Total skills**: 26 | **Core**: 5 | **Domain**: 21
 
 ## Core Skills
 
@@ -42,6 +42,7 @@ Load on demand for particular task types.
 | `prompt-engineering` | product | Writing agent instructions, skill prompts, LLM-facing prompts |
 | `research-deep` | knowledge | Complex topic requiring multi-step investigation and synthesis |
 | `skill-creator` | kernel | Creating new Claude Code skills from scratch |
+| `soul-extraction` | knowledge | Building a SOUL.md persona/voice profile from public social profiles |
 | `test-driven-development` | product | Implementing any feature or bugfix -- RED-GREEN-REFACTOR |
 | `test-runner` | product | Running tests, generating test scaffolds, checking coverage |
 
