@@ -4,6 +4,7 @@ description: Disciplined 4-phase root-cause debugging loop for hard bugs and per
 
 category: software-development
 metadata:
+  tier: task-specific
   tags: [debugging, root-cause, methodology, regression]
   domain: product
 when_to_apply: >

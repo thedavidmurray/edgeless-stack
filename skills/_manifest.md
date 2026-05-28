@@ -2,7 +2,7 @@
 
 Index of all included skills with applicability metadata.
 
-**Total skills**: 92 | **Core**: 5 | **Domain**: 87
+**Total skills**: 106 | **Core**: 5 | **Domain**: 101
 
 ## Core Skills
 
@@ -113,6 +113,21 @@ Load on demand for particular task types.
 | `fine-tuning-with-trl` | tooling | When fine-tuning an LLM with TRL (SFT, DPO, PPO, GRPO, reward modeling). |
 | `peft-fine-tuning` | tooling | When fine-tuning with parameter-efficient methods (LoRA/QLoRA and 25+ PEFT variants). |
 | `evaluating-llms-harness` | tooling | When benchmarking LLMs with lm-evaluation-harness (MMLU, GSM8K, etc.). |
+
+| `graphify` | knowledge | When turning code, docs, papers, or images into a clustered, queryable knowledge graph. |
+| `cli-dashboards` | creative | When building Tufte-minimal data dashboards in the terminal using rich + sqlite. |
+| `verify-before-claiming` | kernel | Before claiming success, verify external state with a concrete command — anti-confabulation disc… |
+| `comfyui` | creative | When generating images, video, or audio with ComfyUI — install, manage nodes/models, run workflows. |
+| `stable-diffusion-image-generation` | creative | When generating images with Stable Diffusion via HuggingFace Diffusers. |
+| `audiocraft-audio-generation` | creative | When generating music or sound with AudioCraft (MusicGen / AudioGen). |
+| `segment-anything-model` | tooling | When doing zero-shot image segmentation via SAM with points, boxes, or masks. |
+| `fleet-self-healing-operations` | tooling | When building self-monitoring, self-healing infrastructure for an agent fleet. |
+| `swarm-observability` | tooling | When instrumenting a multi-agent system with OpenTelemetry and Jaeger. |
+| `academic-paper` | knowledge | When writing academic papers via a multi-agent pipeline (plan/full/outline/revision modes). |
+| `academic-research` | knowledge | When doing deep academic research via a multi-agent investigation pipeline. |
+| `academic-review` | knowledge | When simulating peer review of an academic paper with a multi-judge panel. |
+| `signal-extraction-layer` | knowledge | When extracting structured insights from arbitrary content sources via the SEL pattern. |
+| `llm-wiki` | knowledge | When building or querying a Karpathy-style interlinked-markdown LLM knowledge base. |
 
 
 **Location**: `skills/domains/`

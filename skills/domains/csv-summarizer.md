@@ -21,6 +21,7 @@ tags:
   - statistics
   - visualization
 metadata:
+  tier: task-specific
   domain: knowledge
 when_to_apply: >
   When summarizing or analyzing tabular CSV data.

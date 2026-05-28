@@ -139,7 +139,9 @@ See `hooks/examples/` for more patterns.
 
 ## Skills
 
-Skills are markdown-defined capabilities that Claude Code loads on demand. They encode domain knowledge, workflow patterns, and behavioral rules.
+Skills are markdown-defined capabilities that Claude Code loads on demand. They encode domain knowledge, workflow patterns, and behavioral rules. **106 skills currently shipped** (5 core + 101 domain). See `skills/_manifest.md` for the full index.
+
+Run `python3 scripts/validate.py` before committing to catch frontmatter drift, manifest desync, or personal-path leaks. CI runs the same check on PRs touching `skills/`.
 
 ```markdown
 ---

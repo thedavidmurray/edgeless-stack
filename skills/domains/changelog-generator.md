@@ -8,6 +8,7 @@ description: >
   summaries, or maintaining a public CHANGELOG.md. Trigger phrases: "generate changelog",
   "create release notes", "what changed since", "summarize commits", "update changelog".
 metadata:
+  tier: task-specific
   tags:
     - changelog
     - release-notes

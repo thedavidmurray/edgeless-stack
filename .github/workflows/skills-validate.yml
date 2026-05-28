@@ -1,0 +1,28 @@
+name: Skills Validate
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'scripts/validate.py'
+      - '.github/workflows/skills-validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'skills/**'
+      - 'scripts/validate.py'
+
+jobs:
+  validate:
+    name: Validate skill frontmatter + manifest coherence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run validator (stdlib only — no pip install needed)
+        run: python3 scripts/validate.py
