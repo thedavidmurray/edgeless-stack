@@ -2,7 +2,7 @@
 
 Index of all included skills with applicability metadata.
 
-**Total skills**: 26 | **Core**: 5 | **Domain**: 21
+**Total skills**: 92 | **Core**: 5 | **Domain**: 87
 
 ## Core Skills
 
@@ -45,6 +45,75 @@ Load on demand for particular task types.
 | `soul-extraction` | knowledge | Building a SOUL.md persona/voice profile from public social profiles |
 | `test-driven-development` | product | Implementing any feature or bugfix -- RED-GREEN-REFACTOR |
 | `test-runner` | product | Running tests, generating test scaffolds, checking coverage |
+| `deep-technology-research` | knowledge | When investigating a technology or comparing OSS repos for a strategic build/buy/switch decision. |
+| `dispatch-handoff` | product | When handing off work between agents and a human owner with standardized acceptance criteria. |
+| `hermes-agent` | kernel | When configuring, extending, or contributing to Hermes Agent itself. |
+| `system-health` | tooling | When checking infrastructure health, validating uptime, or building monitoring around services. |
+| `telegram-ops-alerting` | tooling | When sending operational alerts to Telegram with rate limiting and consistent formatting. |
+
+| `obsidian` | knowledge | When reading, searching, creating, or editing notes in an Obsidian vault. |
+| `vault-knowledge-ops` | knowledge | When auditing or curating a knowledge vault's taxonomy and structure end-to-end. |
+| `recall` | knowledge | When searching past Claude Code session transcripts for prior work on a topic. |
+| `arxiv` | knowledge | When searching arXiv for papers by keyword, author, category, or ID. |
+| `youtube-summarizer` | knowledge | When fetching a YouTube transcript and turning it into a structured summary or KB entry. |
+| `ascii-art` | creative | When generating ASCII art (pyfiglet, cowsay, boxes, toilet, image-to-ASCII). |
+| `ascii-video` | creative | When converting video or audio into colored ASCII MP4/GIF output. |
+| `manim-video` | creative | When producing 3Blue1Brown-style math/algorithm animations with Manim CE. |
+| `p5js` | creative | When building p5.js sketches: generative art, shaders, interactive, or 3D. |
+| `excalidraw` | creative | When producing hand-drawn Excalidraw diagrams (architecture, flow, sequence). |
+| `architecture-diagram` | creative | When generating a dark-themed SVG architecture/cloud/infra diagram as HTML. |
+| `pixel-art` | creative | When converting images into retro pixel art with hardware-accurate palettes. |
+| `humanizer` | creative | When stripping AI-isms from text to add genuine voice. |
+| `popular-web-designs` | creative | When you want concrete examples from real design systems (Stripe, Linear, Vercel) as HTML/CSS. |
+| `claude-design` | creative | When you need a one-off HTML artifact (landing page, deck, prototype). |
+| `google-workspace` | product | When using Gmail, Calendar, Drive, Docs, or Sheets via the gws CLI or Python. |
+| `notion` | product | When working with Notion: pages, databases, markdown via API or the ntn CLI. |
+| `linear` | product | When managing Linear issues, projects, and teams via the GraphQL API. |
+| `airtable` | product | When CRUD-ing Airtable records — filters, upserts via REST. |
+| `ocr-and-documents` | knowledge | When extracting text from PDFs or scanned documents (pymupdf, marker-pdf). |
+| `nano-pdf` | product | When editing PDF text/typos/titles via the nano-pdf CLI with natural-language prompts. |
+| `powerpoint` | product | When creating, reading, or editing .pptx decks, slides, notes, or templates. |
+| `maps` | product | When geocoding, looking up POIs, computing routes, or finding timezones via OpenStreetMap/OSRM. |
+| `apple-notes` | product | When managing Apple Notes on macOS via the memo CLI: create, view, search, edit. |
+| `apple-reminders` | product | When managing Apple Reminders on macOS via the remindctl CLI. |
+| `imessage` | product | When sending or receiving iMessages/SMS on macOS via the imsg CLI. |
+| `findmy` | product | When tracking Apple devices and AirTags via FindMy.app on macOS. |
+| `macos-computer-use` | tooling | When driving the macOS desktop in the background — screenshots, mouse, keyboard. |
+| `chroma` | tooling | When storing or querying embeddings in ChromaDB for semantic search or RAG. |
+| `dspy` | tooling | When building declarative LM programs with DSPy and auto-optimizing prompts. |
+| `huggingface-hub` | tooling | When searching, downloading, or uploading models and datasets via the hf CLI. |
+| `llama-cpp` | tooling | When running local GGUF inference with llama.cpp or discovering models on HF. |
+| `outlines` | tooling | When generating structured JSON/regex/Pydantic output from an LLM. |
+| `whisper` | tooling | When transcribing audio with OpenAI's Whisper speech recognition. |
+| `axolotl` | tooling | When fine-tuning an LLM with Axolotl (YAML configs for LoRA/DPO/GRPO). |
+| `unsloth` | tooling | When fine-tuning faster with Unsloth (2-5× speedup, less VRAM). |
+| `weights-and-biases` | tooling | When logging ML experiments, sweeps, and model registry to Weights & Biases. |
+| `plan` | product | When you need to write an implementation plan to a markdown file without executing. |
+| `spike` | product | When running a throwaway experiment to validate an idea before building. |
+| `systematic-debugging` | product | When debugging a hard issue: 4-phase root-cause loop before fixing. |
+| `proof-of-completion` | product | When delivering work — include a structured proof-of-completion block before marking done. |
+| `python-debugpy` | product | When debugging Python via pdb REPL or debugpy remote (DAP). |
+| `node-inspect-debugger` | product | When debugging Node.js via --inspect and Chrome DevTools Protocol. |
+| `subagent-driven-development` | product | When executing a plan via delegate_task subagents with 2-stage review. |
+| `web-dev-ops` | product | When operating a web dev project end-to-end: audit dev sites and validate. |
+| `understand-anything` | knowledge | When analyzing, visualizing, or explaining a codebase with Understand-Anything. |
+| `browser-automation-patterns` | product | When automating browser/web-UI tasks with reliable patterns and the right tools. |
+| `github-pr-workflow` | product | When managing the GitHub PR lifecycle: branch, commit, open, CI, merge. |
+| `github-issues` | product | When creating, triaging, labeling, or assigning GitHub issues. |
+| `github-code-review-v2` | product | When reviewing a PR by analyzing diffs and leaving inline comments. |
+| `github-repo-management` | product | When cloning, creating, forking repos and managing remotes and releases. |
+| `codebase-inspection` | knowledge | When inspecting codebases with pygount: LOC, languages, ratios. |
+| `xurl` | product | When using X/Twitter via the xurl CLI: post, search, DM, media, v2 API. |
+| `agent-fleet-capability-audit` | tooling | When surveying available skills/tools across an agent fleet and auditing capability gaps. |
+| `mcp-to-skill-proxy` | tooling | When converting an MCP server into a Hermes skill via the proxy pattern. |
+
+| `ideation` | creative | When generating project ideas via creative constraints. |
+| `modal-serverless-gpu` | tooling | When running on-demand serverless GPU workloads on Modal. |
+| `serving-llms-vllm` | tooling | When serving LLMs with high-throughput vLLM (OpenAI API, quantization). |
+| `fine-tuning-with-trl` | tooling | When fine-tuning an LLM with TRL (SFT, DPO, PPO, GRPO, reward modeling). |
+| `peft-fine-tuning` | tooling | When fine-tuning with parameter-efficient methods (LoRA/QLoRA and 25+ PEFT variants). |
+| `evaluating-llms-harness` | tooling | When benchmarking LLMs with lm-evaluation-harness (MMLU, GSM8K, etc.). |
+
 
 **Location**: `skills/domains/`
 
