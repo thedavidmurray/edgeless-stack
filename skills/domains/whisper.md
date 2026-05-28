@@ -1,4 +1,5 @@
 ---
+
 name: whisper
 description: >
   OpenAI's general-purpose speech recognition model. Supports 99 languages,
@@ -12,7 +13,6 @@ metadata:
   domain: tooling
 when_to_apply: When transcribing audio with OpenAI's Whisper speech recognition.
 ---
-
 # Whisper - Robust Speech Recognition
 
 OpenAI's multilingual speech recognition model.

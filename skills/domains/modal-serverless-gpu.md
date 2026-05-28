@@ -1,4 +1,5 @@
 ---
+
 name: modal-serverless-gpu
 description: >
   Serverless GPU cloud platform for running ML workloads. Use when you need
@@ -10,7 +11,6 @@ metadata:
   domain: tooling
 when_to_apply: When running on-demand serverless GPU workloads on Modal.
 ---
-
 # Modal Serverless GPU
 
 Comprehensive guide to running ML workloads on Modal's serverless GPU cloud platform.

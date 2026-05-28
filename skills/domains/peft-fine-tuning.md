@@ -1,4 +1,5 @@
 ---
+
 name: peft-fine-tuning
 description: >
   Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods.
@@ -14,7 +15,6 @@ when_to_apply: >
   When fine-tuning with parameter-efficient methods (LoRA/QLoRA and 25+ PEFT
   variants).
 ---
-
 # PEFT (Parameter-Efficient Fine-Tuning)
 
 Fine-tune LLMs by training <1% of parameters using LoRA, QLoRA, and 25+ adapter methods.

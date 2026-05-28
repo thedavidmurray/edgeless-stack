@@ -1,4 +1,5 @@
 ---
+
 name: research-deep
 description: >
   Conducts thorough research and analysis with multi-step investigation.
@@ -12,7 +13,6 @@ when_to_apply: >
   When researching a complex topic requiring multi-step investigation,
   web search, and synthesis across sources
 ---
-
 # Research Deep Skill
 
 ## Overview

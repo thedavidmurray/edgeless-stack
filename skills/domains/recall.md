@@ -1,4 +1,6 @@
 ---
+
+
 name: recall
 description: >
   Search past Claude Code session transcripts for prior work on a topic.
@@ -15,7 +17,6 @@ metadata:
 when_to_apply: >
   When searching past Claude Code session transcripts for prior work on a topic.
 ---
-
 # Recall — Past Session Transcript Search
 
 Search the local Claude Code session transcript store for prior conversations
@@ -66,7 +67,7 @@ JSON array on stdout. Each entry:
 python3.11 ~/.hermes/scripts/recall.py "Pamela" --limit 3
 
 # Search a different project's sessions
-python3.11 ~/.hermes/scripts/recall.py "deploy error" --project /Users/djm/other-repo
+python3.11 ~/.hermes/scripts/recall.py "deploy error" --project ~/other-repo
 ```
 
 ## Privacy note

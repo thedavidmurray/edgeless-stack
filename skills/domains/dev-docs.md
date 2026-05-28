@@ -1,4 +1,5 @@
 ---
+
 name: dev-docs
 description: Generates development documentation for code, APIs, and systems with consistent formatting. This skill should be used when creating READMEs, API docs, architecture records, or inline documentation.
 metadata:

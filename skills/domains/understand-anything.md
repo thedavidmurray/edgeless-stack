@@ -1,4 +1,5 @@
 ---
+
 name: understand-anything
 description: >
   Use when analyzing, visualizing, or explaining codebases with
@@ -12,7 +13,6 @@ when_to_apply: >
   When analyzing, visualizing, or explaining a codebase with
   Understand-Anything.
 ---
-
 # Understand-Anything for Hermes
 
 ## Overview

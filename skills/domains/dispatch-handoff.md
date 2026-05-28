@@ -1,4 +1,5 @@
 ---
+
 name: dispatch-handoff
 description: >
   USE THIS SKILL whenever creating dispatches from Hermes to COO, or when the
@@ -15,7 +16,6 @@ when_to_apply: >
   When handing off work between agents and a human owner with standardized
   acceptance criteria.
 ---
-
 # Dispatch Handoff Skill
 
 Standardized format for dispatching work from Hermes (VPS) to COO (Mac Claude).

@@ -1,4 +1,5 @@
 ---
+
 name: ideation
 description: Generate project ideas via creative constraints.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: creative
 when_to_apply: When generating project ideas via creative constraints.
 ---
-
 # Creative Ideation
 
 ## When to use

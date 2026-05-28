@@ -1,4 +1,5 @@
 ---
+
 name: telegram-ops-alerting
 description: >
   USE THIS SKILL whenever sending operational alerts, health check failures, or
@@ -13,7 +14,6 @@ when_to_apply: >
   When sending operational alerts to Telegram with rate limiting and consistent
   formatting.
 ---
-
 # Telegram Operations Alerting
 
 ## Environment Prerequisites

@@ -1,9 +1,14 @@
 ---
+
 name: diagnose
 description: Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says "diagnose this" / "debug this", reports a bug, says something is broken/throwing/failing, or describes a performance regression.
 category: software-development
+metadata:
+  tags: [debugging, root-cause, methodology, regression]
+  domain: product
+when_to_apply: >
+  When debugging a hard bug or performance regression with a disciplined root-cause loop.
 ---
-
 # Diagnose
 
 A discipline for hard bugs. Skip phases only when explicitly justified.

@@ -1,4 +1,5 @@
 ---
+
 name: llama-cpp
 description: llama.cpp local GGUF inference + HF Hub model discovery.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When running local GGUF inference with llama.cpp or discovering models on HF.
 ---
-
 # llama.cpp + GGUF
 
 Use this skill for local GGUF inference, quant selection, or Hugging Face repo discovery for llama.cpp.

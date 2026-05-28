@@ -1,4 +1,6 @@
 ---
+
+
 name: system-health
 description: >
   USE THIS SKILL whenever checking service status, monitoring infrastructure
@@ -15,7 +17,6 @@ when_to_apply: >
   When checking infrastructure health, validating uptime, or building monitoring
   around services.
 ---
-
 # System Health Monitoring Skill
 
 Health checks for critical Paperclip organization services.
@@ -232,7 +233,7 @@ done
 ### Step 2: Read the Supervisor State File
 
 ```bash
-cat /Users/djm/claude-projects/logs/hermes-supervisor-state.json | python3 -m json.tool
+cat ~/projects/logs/hermes-supervisor-state.json | python3 -m json.tool
 ```
 
 Look for `restart_times` arrays. Three entries within 60 minutes triggers the storm threshold and locks out auto-recovery. Clear phantom history when the restarts were supervisor bugs, not genuine crashes:
@@ -240,10 +241,10 @@ Look for `restart_times` arrays. Three entries within 60 minutes triggers the st
 ```python
 import json
 from pathlib import Path
-state = json.loads(Path("/Users/djm/claude-projects/logs/hermes-supervisor-state.json").read_text())
+state = json.loads(Path("~/projects/logs/hermes-supervisor-state.json").read_text())
 for bot in ["atlas", "beau"]:
     state.get(bot, {}).pop("restart_times", None)
-Path("/Users/djm/claude-projects/logs/hermes-supervisor-state.json").write_text(json.dumps(state, indent=2))
+Path("~/projects/logs/hermes-supervisor-state.json").write_text(json.dumps(state, indent=2))
 ```
 
 ### Step 3: Inspect Gateway Logs for "Already Running"
@@ -257,7 +258,7 @@ If you see `Gateway already running (PID NNN)` or `Another gateway instance is a
 
 ### Step 4: Check the Supervisor Script for Known Bugs
 
-Open `/Users/djm/claude-projects/scripts/cron/hermes-bot-supervisor.sh` and verify these four patterns are correct:
+Open `~/projects/scripts/cron/hermes-bot-supervisor.sh` and verify these four patterns are correct:
 
 | Bug Pattern | Broken | Fixed |
 |-------------|--------|-------|
@@ -357,7 +358,7 @@ This creates **alert fatigue**. After the 10th identical message, the user tunes
 
 ```python
 # GOOD: Append to rolling history, share digest on a schedule
-HISTORY_FILE = Path("/Users/djm/claude-projects/logs/system-load-history.jsonl")
+HISTORY_FILE = Path("~/projects/logs/system-load-history.jsonl")
 with open(HISTORY_FILE, "a") as hf:
     hf.write(json.dumps({"ts": NOW_ISO, "load_1m": round(loadavg, 1)}) + "\n")
 
@@ -411,7 +412,7 @@ If the user says any of these, you're in alarm-fatigue territory:
 
 - Histogram script: `~/.hermes/scripts/system-load-histogram.py`
 - Template (copyable): `templates/system-load-histogram.py` in this skill
-- History file: `/Users/djm/claude-projects/logs/system-load-history.jsonl`
+- History file: `~/projects/logs/system-load-history.jsonl`
 - Cron job: `system-load-histogram` (runs hourly at `:00`)
 
 ---
@@ -520,7 +521,7 @@ A healthy Mac with 8-12 cores should show:
 
 A load of 209 means ~200 runnable processes are competing for CPU — almost certainly zombie hermes workers or a runaway loop, not legitimate load.
 
-**Note:** When load exceeds threshold, the supervisor logs the value to a rolling history file (`/Users/djm/claude-projects/logs/system-load-history.jsonl`) and exits quietly. A separate cron job (`system-load-histogram`) posts an ASCII histogram to Discord #bot-backroom every hour. No Telegram spam.
+**Note:** When load exceeds threshold, the supervisor logs the value to a rolling history file (`~/projects/logs/system-load-history.jsonl`) and exits quietly. A separate cron job (`system-load-histogram`) posts an ASCII histogram to Discord #bot-backroom every hour. No Telegram spam.
 
 ## Quiet Bot False-Positive Kill — Log-MTime Health Check Pitfall
 
@@ -597,13 +598,13 @@ When runaway processes spike system load above the normal threshold (20.0), the 
 **Post-incident verification:**
 ```bash
 # Check current threshold
-grep "is_system_overloaded" /Users/djm/claude-projects/scripts/cron/hermes-bot-supervisor.sh
+grep "is_system_overloaded" ~/projects/scripts/cron/hermes-bot-supervisor.sh
 
 # Check if auto-restore cron exists and ran
 crontab -l | grep restore-supervisor
 # If threshold is still elevated, manually patch it back:
 sed -i '' 's/threshold: float = 250\.0/threshold: float = 20.0/' \
-  /Users/djm/claude-projects/scripts/cron/hermes-bot-supervisor.sh
+  ~/projects/scripts/cron/hermes-bot-supervisor.sh
 ```
 
 **Mass agent recovery after systemic failure:** When a single root cause (provider bug, auth cascade, rate limit storm) puts many Paperclip agents into `error` simultaneously, reset them all at once via PostgreSQL rather than waiting for individual retries. See `references/mass-agent-recovery-postgresql.md` for the exact procedure.

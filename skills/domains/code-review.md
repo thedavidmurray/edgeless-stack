@@ -1,4 +1,5 @@
 ---
+
 name: code-review
 description: >
   Comprehensive code review for catching issues before they become problems.
@@ -11,7 +12,6 @@ when_to_apply: >
   Proactively after writing a significant function, class, or module
   before telling the user it is done
 ---
-
 # Code Review Skill
 
 Comprehensive code review for catching bugs, security issues, and quality

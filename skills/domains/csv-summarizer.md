@@ -1,4 +1,5 @@
 ---
+
 name: csv-data-summarizer
 title: CSV Data Summarizer
 description: >
@@ -19,8 +20,11 @@ tags:
   - seaborn
   - statistics
   - visualization
+metadata:
+  domain: knowledge
+when_to_apply: >
+  When summarizing or analyzing tabular CSV data.
 ---
-
 # CSV Data Summarizer
 
 A Claude Code skill that turns any CSV file into a structured analysis report

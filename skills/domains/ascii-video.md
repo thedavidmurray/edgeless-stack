@@ -1,4 +1,6 @@
 ---
+
+
 name: ascii-video
 description: ASCII video: convert video/audio to colored ASCII MP4/GIF.
 metadata:
@@ -7,7 +9,6 @@ metadata:
   domain: creative
 when_to_apply: When converting video or audio into colored ASCII MP4/GIF output.
 ---
-
 # ASCII Video Production Pipeline
 
 ## When to use
@@ -257,7 +258,7 @@ taxonomy v3. Never default to Desktop.
 | `references/ascii-domain-extrapolation.md` | Extend short video clips via motion-compensated interpolation + organic drift in ASCII grid space. 10-15 fps on CPU. |
 | `references/youtube-source-materials.md` | Curated YouTube source material for video-to-ASCII conversion: ink, fire, cyberpunk, ferrofluid, sand, cloud footage with acquisition commands and artistic direction |
 | `references/ffmpeg-loop-patterns.md` | ffmpeg-based loop/extension patterns when generative video AI is unavailable: ping-pong, slow-mo interpolation, honest capability communication |
-| `references/quickstart-demo.md` | Working 23KB reference demo at `/Users/djm/claude-projects/ascii_video_demo.py` — run it to verify your setup |
+| `references/quickstart-demo.md` | Working 23KB reference demo at `~/projects/ascii_video_demo.py` — run it to verify your setup |
 
 ## Templates
 

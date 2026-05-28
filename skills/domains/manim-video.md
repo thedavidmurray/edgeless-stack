@@ -1,4 +1,5 @@
 ---
+
 name: manim-video
 description: Manim CE animations: 3Blue1Brown math/algo videos.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When producing 3Blue1Brown-style math/algorithm animations with Manim CE.
 ---
-
 # Manim Video Production Pipeline
 
 ## When to use

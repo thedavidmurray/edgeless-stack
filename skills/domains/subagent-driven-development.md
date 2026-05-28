@@ -1,4 +1,5 @@
 ---
+
 name: subagent-driven-development
 description: Execute plans via delegate_task subagents (2-stage review).
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When executing a plan via delegate_task subagents with 2-stage review.
 ---
-
 # Subagent-Driven Development
 
 ## Overview

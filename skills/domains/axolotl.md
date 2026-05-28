@@ -1,4 +1,5 @@
 ---
+
 name: axolotl
 description: Axolotl: YAML LLM fine-tuning (LoRA, DPO, GRPO).
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: tooling
 when_to_apply: When fine-tuning an LLM with Axolotl (YAML configs for LoRA/DPO/GRPO).
 ---
-
 # Axolotl Skill
 
 ## What's inside

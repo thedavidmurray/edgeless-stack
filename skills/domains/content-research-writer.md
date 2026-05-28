@@ -1,4 +1,5 @@
 ---
+
 name: content-research-writer
 description: >
   Writing partner for research, outlining, drafting, and refinement.
@@ -13,7 +14,6 @@ when_to_apply: >
   When writing blog posts, articles, or newsletters that require research,
   outlining, and collaborative refinement
 ---
-
 # Content Research Writer
 
 Acts as your writing partner for blog posts, articles, newsletters, and

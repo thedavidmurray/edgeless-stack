@@ -1,4 +1,5 @@
 ---
+
 name: arxiv
 description: Search arXiv papers by keyword, author, category, or ID.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: knowledge
 when_to_apply: When searching arXiv for papers by keyword, author, category, or ID.
 ---
-
 # arXiv Research
 
 Search and retrieve academic papers from arXiv via their free REST API. No API key, no dependencies — just curl.

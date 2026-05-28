@@ -1,4 +1,5 @@
 ---
+
 name: ocr-and-documents
 description: Extract text from PDFs/scans (pymupdf, marker-pdf).
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When extracting text from PDFs or scanned documents (pymupdf, marker-pdf).
 ---
-
 # PDF & Document Extraction
 
 For DOCX: use `python-docx` (parses actual document structure, far better than OCR).

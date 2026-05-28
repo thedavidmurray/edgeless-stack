@@ -1,4 +1,5 @@
 ---
+
 name: nano-pdf
 description: Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).
 metadata:
@@ -9,7 +10,6 @@ when_to_apply: >
   When editing PDF text/typos/titles via the nano-pdf CLI with natural-language
   prompts.
 ---
-
 # nano-pdf
 
 Edit PDFs using natural-language instructions. Point it at a page and describe what to change.

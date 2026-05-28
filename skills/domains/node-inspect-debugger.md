@@ -1,4 +1,5 @@
 ---
+
 name: node-inspect-debugger
 description: Debug Node.js via --inspect + Chrome DevTools Protocol CLI.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When debugging Node.js via --inspect and Chrome DevTools Protocol.
 ---
-
 # Node.js Inspect Debugger
 
 ## Overview

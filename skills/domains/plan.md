@@ -1,4 +1,5 @@
 ---
+
 name: plan
 description: Plan mode: write markdown plan to .hermes/plans/, no exec.
 metadata:
@@ -9,7 +10,6 @@ when_to_apply: >
   When you need to write an implementation plan to a markdown file without
   executing.
 ---
-
 # Plan Mode
 
 Use this skill when the user wants a plan instead of execution.

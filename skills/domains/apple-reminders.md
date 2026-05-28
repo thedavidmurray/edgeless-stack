@@ -1,4 +1,5 @@
 ---
+
 name: apple-reminders
 description: >
   Manage Apple Reminders via remindctl CLI. Create, view, complete, and delete
@@ -14,7 +15,6 @@ metadata:
   domain: product
 when_to_apply: When managing Apple Reminders on macOS via the remindctl CLI.
 ---
-
 # Apple Reminders
 
 ## Identity (Who This Agent Is)

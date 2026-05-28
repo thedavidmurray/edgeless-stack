@@ -1,4 +1,5 @@
 ---
+
 name: macos-computer-use
 description: >
   Drive the macOS desktop in the background — screenshots, mouse, keyboard,
@@ -15,7 +16,6 @@ when_to_apply: >
   When driving the macOS desktop in the background — screenshots, mouse,
   keyboard.
 ---
-
 # macOS Computer Use (universal, any-model)
 
 You have a `computer_use` tool that drives the Mac in the **background**.

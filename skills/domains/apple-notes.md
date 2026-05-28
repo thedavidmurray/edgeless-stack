@@ -1,4 +1,5 @@
 ---
+
 name: apple-notes
 description: >
   Manage Apple Notes via the memo CLI on macOS — create, view, search, edit,
@@ -17,7 +18,6 @@ when_to_apply: >
   When managing Apple Notes on macOS via the memo CLI: create, view, search,
   edit.
 ---
-
 # Apple Notes
 
 ## Identity (Who This Agent Is)

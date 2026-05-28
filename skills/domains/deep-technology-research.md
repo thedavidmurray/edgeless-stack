@@ -1,4 +1,5 @@
 ---
+
 name: deep-technology-research
 description: >
   Deep research and comparative analysis of open-source repositories for
@@ -11,7 +12,6 @@ when_to_apply: >
   When investigating a technology or comparing OSS repos for a strategic
   build/buy/switch decision.
 ---
-
 # Deep Technology Research & Strategic Analysis
 
 ## Purpose

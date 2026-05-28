@@ -1,4 +1,6 @@
 ---
+
+
 name: chroma
 description: >
   Open-source embedding database for AI applications. Store embeddings and
@@ -13,7 +15,6 @@ metadata:
 when_to_apply: >
   When storing or querying embeddings in ChromaDB for semantic search or RAG.
 ---
-
 # Chroma - Open-Source Embedding Database
 
 The AI-native database for building LLM applications with memory.
@@ -376,7 +377,7 @@ client = chromadb.HttpClient(
 )
 ```
 
-**Why**: The launchd agent (`com.djm.chroma`) manages the server lifecycle on `localhost:8100` with data at `/Users/djm/claude-projects/chroma-data`. Using `HttpClient` ensures:
+**Why**: The launchd agent (`com.example.chroma`) manages the server lifecycle on `localhost:8100` with data at `~/projects/chroma-data`. Using `HttpClient` ensures:
 - All access goes through the managed server process
 - No orphaned `chroma run` processes can spin up independently
 - File locking is handled by the single server process
@@ -384,7 +385,7 @@ client = chromadb.HttpClient(
 **Anti-pattern** (DO NOT USE on Mac):
 ```python
 # ❌ WRONG: Bypasses the launchd-managed server
-client = chromadb.PersistentClient(path="/Users/djm/claude-projects/chroma-data")
+client = chromadb.PersistentClient(path="~/projects/chroma-data")
 ```
 
 While `PersistentClient` with the correct path accesses the same database, it bypasses the server and risks spawning orphaned processes if `chroma run` is launched independently.
@@ -410,7 +411,7 @@ print([c.name for c in client.list_collections()])  # ['hermes_learnings', ...]
 ### Server startup (launchd)
 
 The launchd agent auto-starts the server:
-- **Plist**: `~/Library/LaunchAgents/com.djm.chroma.plist`
+- **Plist**: `~/Library/LaunchAgents/com.example.chroma.plist`
 - **PID**: Check with `launchctl list | grep chroma`
 - **Logs**: `~/claude-projects/logs/chroma-server.{log,err}`
 
@@ -424,7 +425,7 @@ which chroma
 # Typical path on macOS: /Library/Frameworks/Python.framework/Versions/3.11/bin/chroma
 
 # Start the HTTP server
-chroma run --path /Users/djm/claude-projects/chroma-data --port 8100 --host 127.0.0.1
+chroma run --path ~/projects/chroma-data --port 8100 --host 127.0.0.1
 ```
 
 **Critical traps to avoid:**

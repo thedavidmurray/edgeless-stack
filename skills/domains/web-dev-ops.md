@@ -1,4 +1,5 @@
 ---
+
 name: web-dev-ops
 description: >
   Operate web development projects end-to-end: audit local development sites for
@@ -17,7 +18,6 @@ metadata:
 when_to_apply: >
   When operating a web dev project end-to-end: audit dev sites and validate.
 ---
-
 # Web Development Operations
 
 ## Identity

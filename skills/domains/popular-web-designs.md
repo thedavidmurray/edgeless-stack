@@ -1,4 +1,5 @@
 ---
+
 name: popular-web-designs
 description: 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.
 metadata:
@@ -9,7 +10,6 @@ when_to_apply: >
   When you want concrete examples from real design systems (Stripe, Linear,
   Vercel) as HTML/CSS.
 ---
-
 # Popular Web Designs
 
 54 real-world design systems ready for use when generating HTML/CSS. Each template captures a

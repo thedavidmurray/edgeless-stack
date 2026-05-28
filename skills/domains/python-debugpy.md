@@ -1,4 +1,5 @@
 ---
+
 name: python-debugpy
 description: Debug Python: pdb REPL + debugpy remote (DAP).
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When debugging Python via pdb REPL or debugpy remote (DAP).
 ---
-
 # Python Debugger (pdb + debugpy)
 
 ## Overview

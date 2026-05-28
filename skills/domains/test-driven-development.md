@@ -1,4 +1,5 @@
 ---
+
 name: test-driven-development
 description: >
   Enforce strict TDD discipline -- write failing tests before any production
@@ -12,7 +13,6 @@ when_to_apply: >
   When implementing any feature or bugfix -- enforce strict RED-GREEN-REFACTOR
   before writing production code
 ---
-
 # Test-Driven Development (TDD)
 
 ## Overview

@@ -1,4 +1,5 @@
 ---
+
 name: obsidian
 description: Read, search, create, and edit notes in the Obsidian vault.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When reading, searching, creating, or editing notes in an Obsidian vault.
 ---
-
 # Obsidian Vault
 
 Use this skill for filesystem-first Obsidian vault work: reading notes, listing notes, searching note files, creating notes, appending content, and adding wikilinks.

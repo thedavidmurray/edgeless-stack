@@ -1,4 +1,5 @@
 ---
+
 name: article-extractor
 title: Article Extractor
 description: >
@@ -23,8 +24,9 @@ metadata:
 allowed-tools: Bash, Write, Read
 version: 1.0.0
 created: 2025-01-01
+when_to_apply: >
+  When the user provides a URL and wants the article text extracted as clean markdown.
 ---
-
 # Article Extractor
 
 Extracts main content from web articles and blog posts, removing navigation,

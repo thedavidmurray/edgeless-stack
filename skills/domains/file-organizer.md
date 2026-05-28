@@ -1,4 +1,5 @@
 ---
+
 name: file-organizer
 description: Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better structures. This skill should be used when directories are messy, files are scattered, duplicates accumulate, or folder structure needs improvement.
 metadata:

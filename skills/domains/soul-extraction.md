@@ -1,4 +1,5 @@
 ---
+
 name: soul-extraction
 description: >
   Builds a SOUL.md persona and voice profile from a person's public social
@@ -13,7 +14,6 @@ when_to_apply: >
   When the user gives one or more social handles/URLs and asks to build a
   soul.md, extract someone's voice/persona, or profile a creator.
 ---
-
 # Soul Extraction
 
 Turn a person's **public** social presence into a single `SOUL.md` -- a grounded

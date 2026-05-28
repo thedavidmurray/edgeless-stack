@@ -1,4 +1,5 @@
 ---
+
 name: maps
 description: Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.
 metadata:
@@ -9,7 +10,6 @@ when_to_apply: >
   When geocoding, looking up POIs, computing routes, or finding timezones via
   OpenStreetMap/OSRM.
 ---
-
 # Maps Skill
 
 Location intelligence using free, open data sources. 8 commands, 44 POI

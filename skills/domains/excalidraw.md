@@ -1,4 +1,5 @@
 ---
+
 name: excalidraw
 description: Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When producing hand-drawn Excalidraw diagrams (architecture, flow, sequence).
 ---
-
 # Excalidraw Diagram Skill
 
 Create diagrams by writing standard Excalidraw element JSON and saving as `.excalidraw` files. These files can be drag-and-dropped onto [excalidraw.com](https://excalidraw.com) for viewing and editing. No accounts, no API keys, no rendering libraries -- just JSON.

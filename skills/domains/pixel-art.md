@@ -1,4 +1,5 @@
 ---
+
 name: pixel-art
 description: >
   Convert images into retro pixel art with hardware-accurate palettes (NES, Game
@@ -12,7 +13,6 @@ metadata:
 when_to_apply: >
   When converting images into retro pixel art with hardware-accurate palettes.
 ---
-
 # Pixel Art
 
 Convert any image into retro pixel art, then optionally animate it into a short

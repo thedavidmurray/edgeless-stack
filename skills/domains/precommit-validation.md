@@ -1,4 +1,5 @@
 ---
+
 name: precommit-validation
 description: Comprehensive pre-commit validation using zen-mcp's precommit and security audit tools. Run PROACTIVELY before any git commit to catch issues early.
 metadata:

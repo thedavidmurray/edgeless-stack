@@ -1,4 +1,5 @@
 ---
+
 name: github-pr-workflow
 description: GitHub PR lifecycle: branch, commit, open, CI, merge.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When managing the GitHub PR lifecycle: branch, commit, open, CI, merge.
 ---
-
 # GitHub Pull Request Workflow
 
 Complete guide for managing the PR lifecycle. Each section shows the `gh` way first, then the `git` + `curl` fallback for machines without `gh`.

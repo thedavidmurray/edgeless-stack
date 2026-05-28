@@ -1,4 +1,5 @@
 ---
+
 name: p5js
 description: p5.js sketches: gen art, shaders, interactive, 3D.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When building p5.js sketches: generative art, shaders, interactive, or 3D.
 ---
-
 # p5.js Production Pipeline
 
 ## When to use

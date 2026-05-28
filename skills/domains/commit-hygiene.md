@@ -1,4 +1,5 @@
 ---
+
 name: commit-hygiene
 description: Enforces quantitative commit size thresholds and best practices to reduce defect rates. Validates commit messages, detects oversized commits, and suggests splitting strategies.
 metadata:

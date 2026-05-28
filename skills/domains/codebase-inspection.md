@@ -1,4 +1,5 @@
 ---
+
 name: codebase-inspection
 description: Inspect codebases w/ pygount: LOC, languages, ratios.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: knowledge
 when_to_apply: When inspecting codebases with pygount: LOC, languages, ratios.
 ---
-
 # Codebase Inspection with pygount
 
 Analyze repositories for lines of code, language breakdown, file counts, and code-vs-comment ratios using `pygount`.

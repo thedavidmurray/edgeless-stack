@@ -1,4 +1,5 @@
 ---
+
 name: mcp-server-scaffold
 description: >
   Scaffold new MCP (Model Context Protocol) servers with TypeScript/Node.js
@@ -11,8 +12,9 @@ metadata:
   tags: [mcp, server, scaffold, typescript, nodejs, template, stdio, http, tools, resources]
   tier: task-specific
   domain: tooling
+when_to_apply: >
+  When scaffolding a new MCP server (TypeScript or Python templates).
 ---
-
 # MCP Server Scaffold
 
 Scaffold production-ready MCP servers with proper TypeScript/Node.js boilerplate,

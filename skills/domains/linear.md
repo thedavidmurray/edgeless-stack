@@ -1,4 +1,5 @@
 ---
+
 name: linear
 description: Linear: manage issues, projects, teams via GraphQL + curl.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When managing Linear issues, projects, and teams via the GraphQL API.
 ---
-
 # Linear — Issue & Project Management
 
 Manage Linear issues, projects, and teams directly via the GraphQL API using `curl`. No MCP server, no OAuth flow, no extra dependencies.

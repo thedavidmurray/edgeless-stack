@@ -1,4 +1,5 @@
 ---
+
 name: systematic-debugging
 description: 4-phase root cause debugging: understand bugs before fixing.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When debugging a hard issue: 4-phase root-cause loop before fixing.
 ---
-
 # Systematic Debugging
 
 ## Overview

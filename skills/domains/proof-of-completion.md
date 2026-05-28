@@ -1,4 +1,5 @@
 ---
+
 name: proof-of-completion
 description: >
   Structured proof-of-completion block for agent-delivered work. Include before
@@ -11,7 +12,6 @@ when_to_apply: >
   When delivering work — include a structured proof-of-completion block before
   marking done.
 ---
-
 # Proof of Completion
 
 ## Overview

@@ -1,4 +1,5 @@
 ---
+
 name: github-issues
 description: Create, triage, label, assign GitHub issues via gh or REST.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When creating, triaging, labeling, or assigning GitHub issues.
 ---
-
 # GitHub Issues Management
 
 Create, search, triage, and manage GitHub issues. Each section shows `gh` first, then the `curl` fallback.

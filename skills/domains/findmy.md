@@ -1,4 +1,5 @@
 ---
+
 name: findmy
 description: Track Apple devices/AirTags via FindMy.app on macOS.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: product
 when_to_apply: When tracking Apple devices and AirTags via FindMy.app on macOS.
 ---
-
 # Find My (Apple)
 
 Track Apple devices and AirTags via the FindMy.app on macOS. Since Apple doesn't

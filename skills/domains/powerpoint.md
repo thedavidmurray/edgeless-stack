@@ -1,4 +1,5 @@
 ---
+
 name: powerpoint
 description: Create, read, edit .pptx decks, slides, notes, templates.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When creating, reading, or editing .pptx decks, slides, notes, or templates.
 ---
-
 # Powerpoint Skill
 
 ## When to use

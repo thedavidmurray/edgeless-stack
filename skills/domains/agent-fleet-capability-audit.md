@@ -1,4 +1,5 @@
 ---
+
 name: agent-fleet-capability-audit
 description: >
   Survey available skills/tools across Hermes categories, audit subscription vs
@@ -13,7 +14,6 @@ when_to_apply: >
   When surveying available skills/tools across an agent fleet and auditing
   capability gaps.
 ---
-
 # Agent Fleet Capability Audit & Delegation
 
 > **Purpose**: Survey → Document → Assign → Notify  

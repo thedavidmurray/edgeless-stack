@@ -1,4 +1,5 @@
 ---
+
 name: github-code-review-v2
 description: >
   Review code changes by analyzing git diffs and leaving inline PR comments. Use
@@ -14,7 +15,6 @@ metadata:
   domain: product
 when_to_apply: When reviewing a PR by analyzing diffs and leaving inline comments.
 ---
-
 # GitHub Code Review (Unified Format)
 
 ## Identity

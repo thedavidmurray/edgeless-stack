@@ -1,4 +1,5 @@
 ---
+
 name: mcp-to-skill-proxy
 description: >
   Convert MCP (Model Context Protocol) servers into Hermes skills with
@@ -17,7 +18,6 @@ metadata:
 when_to_apply: >
   When converting an MCP server into a Hermes skill via the proxy pattern.
 ---
-
 # MCP-to-Skill Proxy
 
 Convert MCP servers into on-demand Hermes skills to eliminate upfront context overhead.

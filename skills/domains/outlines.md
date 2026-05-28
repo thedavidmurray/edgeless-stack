@@ -1,4 +1,5 @@
 ---
+
 name: outlines
 description: Outlines: structured JSON/regex/Pydantic LLM generation.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: tooling
 when_to_apply: When generating structured JSON/regex/Pydantic output from an LLM.
 ---
-
 # Outlines: Structured Text Generation
 
 ## When to Use This Skill

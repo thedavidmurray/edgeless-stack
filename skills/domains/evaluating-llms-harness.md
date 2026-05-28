@@ -1,4 +1,5 @@
 ---
+
 name: evaluating-llms-harness
 description: lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: tooling
 when_to_apply: When benchmarking LLMs with lm-evaluation-harness (MMLU, GSM8K, etc.).
 ---
-
 # lm-evaluation-harness - LLM Benchmarking
 
 ## What's inside

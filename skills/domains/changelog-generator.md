@@ -1,4 +1,5 @@
 ---
+
 name: changelog-generator
 description: >
   Generates user-facing changelogs from git history by parsing conventional commits,
@@ -14,11 +15,11 @@ metadata:
     - versioning
     - conventional-commits
   version: "1.0.0"
+  domain: product
 when_to_apply: >
   When preparing release notes for a new version, summarizing changes for stakeholders,
   generating weekly/monthly update digests, or maintaining a public changelog file.
 ---
-
 # Changelog Generator
 
 Transform technical git commits into polished, user-friendly changelogs.

@@ -1,4 +1,5 @@
 ---
+
 name: serving-llms-vllm
 description: vLLM: high-throughput LLM serving, OpenAI API, quantization.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When serving LLMs with high-throughput vLLM (OpenAI API, quantization).
 ---
-
 # vLLM - High-Performance LLM Serving
 
 ## When to use

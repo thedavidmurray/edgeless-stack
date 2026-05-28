@@ -1,4 +1,5 @@
 ---
+
 name: huggingface-hub
 description: HuggingFace hf CLI: search/download/upload models, datasets.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When searching, downloading, or uploading models and datasets via the hf CLI.
 ---
-
 # Hugging Face CLI (`hf`) Reference Guide
 
 The `hf` command is the modern command-line interface for interacting with the Hugging Face Hub, providing tools to manage repositories, models, datasets, and Spaces.

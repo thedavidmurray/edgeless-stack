@@ -1,4 +1,5 @@
 ---
+
 name: browser-automation-patterns
 description: >
   Reliable browser automation patterns for web UI tasks using Hermes
@@ -15,7 +16,6 @@ when_to_apply: >
   When automating browser/web-UI tasks with reliable patterns and the right
   tools.
 ---
-
 # Browser Automation Patterns
 
 ## Identity

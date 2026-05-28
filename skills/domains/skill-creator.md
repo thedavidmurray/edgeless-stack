@@ -1,4 +1,5 @@
 ---
+
 name: skill-creator
 description: >
   Guide for creating and updating Claude Code skills. Use when a user wants to
@@ -22,7 +23,6 @@ allowed-tools:
   - Grep
 when_to_apply: When creating a new skill, updating an existing skill's frontmatter, or converting documentation to the standard skill format
 ---
-
 # Skill Creator
 
 Create well-structured skills that extend Claude Code's capabilities using official Anthropic patterns.

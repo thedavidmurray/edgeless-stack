@@ -1,4 +1,5 @@
 ---
+
 name: weights-and-biases
 description: W&B: log ML experiments, sweeps, model registry, dashboards.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When logging ML experiments, sweeps, and model registry to Weights & Biases.
 ---
-
 # Weights & Biases: ML Experiment Tracking & MLOps
 
 ## When to Use This Skill

@@ -1,4 +1,5 @@
 ---
+
 name: youtube-summarizer
 description: >
   Automatically fetch YouTube video transcripts, generate structured summaries,
@@ -13,7 +14,6 @@ when_to_apply: >
   When fetching a YouTube transcript and turning it into a structured summary or
   KB entry.
 ---
-
 # YouTube Summarizer & Knowledge Builder
 
 Fetch transcripts from YouTube videos — from quick summaries to full **knowledge corpus enrichment** with multi-track routing to specialist agents.

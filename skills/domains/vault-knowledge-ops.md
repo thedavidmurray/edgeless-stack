@@ -1,4 +1,5 @@
 ---
+
 name: vault-knowledge-ops
 description: >
   Manage the knowledge vault end-to-end: enforce canonical taxonomy and
@@ -17,7 +18,6 @@ when_to_apply: >
   When auditing or curating a knowledge vault's taxonomy and structure
   end-to-end.
 ---
-
 # Vault Knowledge Operations
 
 ## Identity

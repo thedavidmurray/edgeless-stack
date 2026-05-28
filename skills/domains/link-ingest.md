@@ -1,4 +1,5 @@
 ---
+
 name: link-ingest
 description: >
   Ingest, save, or archive any web URL into the knowledge base. Fetches content
@@ -21,7 +22,6 @@ metadata:
   domain: ingestion
 when_to_apply: When the user pastes a URL and asks to save, archive, or ingest it into the knowledge base
 ---
-
 # Link Ingest Skill (v3.0)
 
 Ingest ANY web content into the knowledge base with **intelligent scraping strategy**, auto-detected content type, enrichment, and proper Obsidian metadata.

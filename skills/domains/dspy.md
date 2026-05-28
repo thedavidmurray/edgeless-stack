@@ -1,4 +1,5 @@
 ---
+
 name: dspy
 description: DSPy: declarative LM programs, auto-optimize prompts, RAG.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When building declarative LM programs with DSPy and auto-optimizing prompts.
 ---
-
 # DSPy: Declarative Language Model Programming
 
 ## When to Use This Skill

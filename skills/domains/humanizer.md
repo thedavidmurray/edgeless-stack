@@ -1,4 +1,5 @@
 ---
+
 name: humanizer
 description: Humanize text: strip AI-isms and add real voice.
 metadata:
@@ -7,7 +8,6 @@ metadata:
   domain: creative
 when_to_apply: When stripping AI-isms from text to add genuine voice.
 ---
-
 # Humanizer: Remove AI Writing Patterns
 
 Identify and remove signs of AI-generated text to make writing sound natural and human. Based on Wikipedia's "Signs of AI writing" guide (maintained by WikiProject AI Cleanup), derived from observations of thousands of AI-generated text instances.

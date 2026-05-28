@@ -1,4 +1,5 @@
 ---
+
 name: ascii-art
 description: >
   Generate ASCII art using pyfiglet (571 fonts), cowsay, boxes, toilet,
@@ -11,7 +12,6 @@ metadata:
 when_to_apply: >
   When generating ASCII art (pyfiglet, cowsay, boxes, toilet, image-to-ASCII).
 ---
-
 # ASCII Art Skill
 
 Multiple tools for different ASCII art needs. All tools are local CLI programs or free REST APIs — no API keys required.

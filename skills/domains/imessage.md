@@ -1,4 +1,5 @@
 ---
+
 name: imessage
 description: >
   Send and receive iMessages/SMS via the imsg CLI on macOS. Use when: user asks
@@ -14,7 +15,6 @@ metadata:
   domain: product
 when_to_apply: When sending or receiving iMessages/SMS on macOS via the imsg CLI.
 ---
-
 # iMessage
 
 ## Identity (Who This Agent Is)

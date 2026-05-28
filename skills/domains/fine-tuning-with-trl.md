@@ -1,4 +1,5 @@
 ---
+
 name: fine-tuning-with-trl
 description: TRL: SFT, DPO, PPO, GRPO, reward modeling for LLM RLHF.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When fine-tuning an LLM with TRL (SFT, DPO, PPO, GRPO, reward modeling).
 ---
-
 # TRL - Transformer Reinforcement Learning
 
 ## Quick start

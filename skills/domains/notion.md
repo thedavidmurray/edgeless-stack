@@ -1,4 +1,5 @@
 ---
+
 name: notion
 description: Notion API + ntn CLI: pages, databases, markdown, Workers.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When working with Notion: pages, databases, markdown via API or the ntn CLI.
 ---
-
 # Notion
 
 Talk to Notion two ways. Same integration token works for both — pick by what's available.

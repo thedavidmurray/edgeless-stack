@@ -1,4 +1,5 @@
 ---
+
 name: architecture-diagram
 description: Dark-themed SVG architecture/cloud/infra diagrams as HTML.
 metadata:
@@ -8,7 +9,6 @@ metadata:
 when_to_apply: >
   When generating a dark-themed SVG architecture/cloud/infra diagram as HTML.
 ---
-
 # Architecture Diagram Skill
 
 Generate professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics. No external tools, no API keys, no rendering libraries — just write the HTML file and open it in a browser.
