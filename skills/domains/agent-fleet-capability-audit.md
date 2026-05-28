@@ -1,5 +1,6 @@
 ---
 
+
 name: agent-fleet-capability-audit
 description: >
   Survey available skills/tools across Hermes categories, audit subscription vs
@@ -18,6 +19,10 @@ when_to_apply: >
 
 > **Purpose**: Survey → Document → Assign → Notify  
 > **Interactive workflow** for deliberate fleet capability management, not automated gap detection.
+
+## Prerequisites
+
+This skill **requires the Hermes Agent runtime**. It scans `$HERMES_HOME/skills/` and agent profiles to survey available capabilities; it is not useful outside that environment. Set `HERMES_HOME` (defaults to `~/.hermes`) before running.
 
 ---
 

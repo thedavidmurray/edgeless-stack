@@ -1,7 +1,7 @@
 ---
-
 name: image-enhancer
-description: Batch image enhancement using ImageMagick. Handles upscaling (Lanczos/Mitchell filters), sharpening, denoising, format conversion (PNG/WebP/AVIF/JPEG), compression optimization, and platform-specific presets for Twitter, Instagram, LinkedIn, and blog headers. Includes before/after quality comparison.
+description: Batch image enhancement with ImageMagick — upscale, sharpen, format-convert, platform presets.
+
 metadata:
   tags:
   - image

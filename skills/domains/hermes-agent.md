@@ -1,5 +1,6 @@
 ---
 
+
 name: hermes-agent
 description: >
   Complete guide to using and extending Hermes Agent — CLI usage, setup,
@@ -16,6 +17,10 @@ when_to_apply: When configuring, extending, or contributing to Hermes Agent itse
 # Hermes Agent
 
 Hermes Agent is an open-source AI agent framework by Nous Research that runs in your terminal, messaging platforms, and IDEs. It belongs to the same category as Claude Code (Anthropic), Codex (OpenAI), and OpenClaw — autonomous coding and task-execution agents that use tool calling to interact with your system. Hermes works with any LLM provider (OpenRouter, Anthropic, OpenAI, DeepSeek, local models, and 15+ others) and runs on Linux, macOS, and WSL.
+
+## Prerequisites
+
+This is the **Hermes Agent itself** — its CLI usage, configuration, and contributor guide. Assumes `hermes` is installed and reachable on `PATH`; see https://hermes-agent.nousresearch.com/docs/ to install.
 
 What makes Hermes different:
 

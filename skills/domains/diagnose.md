@@ -1,7 +1,7 @@
 ---
-
 name: diagnose
-description: Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says "diagnose this" / "debug this", reports a bug, says something is broken/throwing/failing, or describes a performance regression.
+description: Disciplined 4-phase root-cause debugging loop for hard bugs and performance regressions.
+
 category: software-development
 metadata:
   tags: [debugging, root-cause, methodology, regression]

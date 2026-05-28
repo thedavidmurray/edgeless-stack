@@ -1,6 +1,7 @@
 ---
 
 
+
 name: system-health
 description: >
   USE THIS SKILL whenever checking service status, monitoring infrastructure
@@ -20,6 +21,10 @@ when_to_apply: >
 # System Health Monitoring Skill
 
 Health checks for critical Paperclip organization services.
+
+## Prerequisites
+
+Tuned for the author's swarm topology (Hermes profiles + launchd + cron). The *methodology* is portable; the specific commands are not. Adapt the example invocations to your own infra (systemd / cron / process manager) before running.
 
 ## Services Monitored
 

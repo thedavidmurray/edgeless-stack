@@ -1,7 +1,7 @@
 ---
-
 name: test-runner
-description: Runs tests, generates test scaffolds, and manages test coverage with auto-detection of project test framework. This skill should be used when running tests, generating test files, or checking coverage.
+description: Run tests, generate scaffolds, and manage coverage with auto-detection across stacks.
+
 metadata:
   tags:
   - testing
