@@ -132,6 +132,20 @@ Load on demand for particular task types.
 
 **Location**: `skills/domains/`
 
+## Vendor Skills
+
+Third-party skills from external vendors, integrated into the Edgeless stack.
+
+| Skill | Vendor | When to Apply |
+|-------|--------|---------------|
+| `aiq-research` | NVIDIA | AI research workflows via AI-Q Blueprint |
+| `dynamo-recipe-runner` | NVIDIA | Deploy LLM serving recipes on Kubernetes |
+| `dynamo-router-starter` | NVIDIA | Set up LLM routing for inference serving |
+| `dynamo-troubleshoot` | NVIDIA | Troubleshoot NVIDIA Dynamo deployment issues |
+| `mcore-testing` | NVIDIA | Large-scale distributed training with Megatron-Core |
+
+**Location**: `skills/vendors/nvidia/`
+
 ## Skill File Structure
 
 Each skill is a single markdown file with YAML frontmatter:
