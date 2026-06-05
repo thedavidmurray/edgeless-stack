@@ -103,4 +103,4 @@ External Sources (RSS, email, YouTube, web)
 
 ---
 
-*Part of the [Edgeless Stack](https://github.com/edgeless-ai/edgeless-stack)*
+*Part of the [Edgeless Stack](https://github.com/thedavidmurray/edgeless-stack)*

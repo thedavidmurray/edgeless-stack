@@ -140,13 +140,17 @@ python .claude/hooks/verify-completion.py --type task-XXX --verbose
 - Consolidated at: `.env` (gitignored)
 - Load: `from dotenv import load_dotenv; load_dotenv('.env')`
 
+## JavaScript Dependency Management
+- Use **pnpm** instead of npm or yarn wherever practical
+- Configure pnpm with `minimumReleaseAge: 1440` (24-hour quarantine on new package versions)
+
 ## Environment
 
 <!-- CUSTOMIZE: Your runtime environment details -->
 
 - Python: <!-- version and path -->
 - Node: <!-- version if applicable -->
-- Package manager: <!-- pip, npm, cargo, etc. -->
+- Package manager: pnpm (preferred) or pip
 
 ---
 *Template from Edgeless Stack. Customize for your project.*

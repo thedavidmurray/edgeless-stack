@@ -181,4 +181,4 @@ Notes in `00-Inbox/` default to `trust: low`. When you review and move them to `
 
 ---
 
-*Part of the [Edgeless Stack](https://github.com/edgeless-ai/edgeless-stack)*
+*Part of the [Edgeless Stack](https://github.com/thedavidmurray/edgeless-stack)*

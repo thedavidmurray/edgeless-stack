@@ -19,7 +19,7 @@ This is the system behind [Edgeless Lab](https://edgelesslab.com) -- extracted, 
 
 ```bash
 # Clone
-git clone https://github.com/edgeless-ai/edgeless-stack.git
+git clone https://github.com/thedavidmurray/edgeless-stack.git
 cd edgeless-stack
 
 # Configure

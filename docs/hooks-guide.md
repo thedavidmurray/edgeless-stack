@@ -184,4 +184,4 @@ echo '{"tool_name": "Bash", "tool_input": {"command": "git status"}}' | python3 
 
 ---
 
-*Part of the [Edgeless Stack](https://github.com/edgeless-ai/edgeless-stack)*
+*Part of the [Edgeless Stack](https://github.com/thedavidmurray/edgeless-stack)*

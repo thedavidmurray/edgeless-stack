@@ -174,4 +174,4 @@ cp data/shared_memory/events.sqlite3 backups/events-$(date +%Y%m%d).sqlite3
 
 ---
 
-*Part of the [Edgeless Stack](https://github.com/edgeless-ai/edgeless-stack)*
+*Part of the [Edgeless Stack](https://github.com/thedavidmurray/edgeless-stack)*

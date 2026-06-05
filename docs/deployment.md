@@ -31,7 +31,7 @@ cp .env.example .env
 docker compose up -d
 
 # Verify
-curl http://localhost:8000/api/v1/heartbeat  # ChromaDB
+curl http://localhost:8000/api/v2/heartbeat  # ChromaDB (v1 is deprecated; returns 410 Gone)
 curl http://localhost:9800/health             # Agent Bus
 
 # Install into your project
@@ -54,7 +54,7 @@ For agents that run 24/7. Requires a Linux VPS.
 sudo apt update && sudo apt install -y python3.11 python3-pip docker.io docker-compose-v2 git
 
 # Clone the stack
-git clone https://github.com/edgeless-ai/edgeless-stack.git
+git clone https://github.com/thedavidmurray/edgeless-stack.git
 cd edgeless-stack
 
 # Configure
@@ -178,4 +178,4 @@ tar czf backups/edgeless-stack-$(date +%Y%m%d).tar.gz \
 
 ---
 
-*Part of the [Edgeless Stack](https://github.com/edgeless-ai/edgeless-stack)*
+*Part of the [Edgeless Stack](https://github.com/thedavidmurray/edgeless-stack)*
